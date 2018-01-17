@@ -2,9 +2,9 @@ language: generic
 
 deploy:
   - provider: script
-    script: ./script.sh SCRIPT1
+    script: script.sh SCRIPT1
     skip_cleanup: true
 
   - provider: script
-    script: ./script.sh SCRIPT2
+    script: script.sh SCRIPT2
     skip_cleanup: true
