@@ -1,5 +1,13 @@
 language: generic
 
 deploy:
+  skip_cleanup: true
   - provider: script
-  - provider: releases
+    before_deploy:
+      - echo it is SCRIPT2
+    script: ./script.sh
+
+  - provider: script
+    before_deploy:
+      - echo it is SCRIPT2
+    script: ./script.sh
