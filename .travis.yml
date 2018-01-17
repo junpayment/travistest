@@ -1,0 +1,5 @@
+language: generic
+
+deploy:
+  - provider: script
+  - provider: releases
