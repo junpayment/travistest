@@ -2,11 +2,11 @@ language: generic
 
 deploy:
   - provider: script
-    script: script.sh SCRIPT1
+    script: sh script.sh SCRIPT1
     on:
       branch: master
 
   - provider: script
-    script: script.sh SCRIPT2
+    script: sh script.sh SCRIPT2
     on:
       branch: master
